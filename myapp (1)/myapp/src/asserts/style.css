@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #fefff3;
+}
+
+.scn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  background-color: #fefff3;
+  padding: 0 10%;
+}
+
+.sncontainer {
+  background-color: #c7c7e4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(200, 194, 194, 0.2);
+  width: 390px;
+}
+
+.scontainer-butterfly {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scontainer-butterfly img {
+  max-width: 100%;
+  max-height: 80vh;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  outline: transparent;
+}
+
+button {
+  width: 100%;
+  margin-top: 10.2px;
+  padding: 10px;
+  background-color: #FF8343;
+  font-size: 18px;
+  color: rgb(204, 222, 206);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(176, 80, 63);
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.asksignup {
+  margin-top: 30px;
+  margin-left: 9px;
+  margin-bottom: 15px;
+}
+
+.asksignup a {
+  text-decoration: none;
+}

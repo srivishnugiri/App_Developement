@@ -1,0 +1,43 @@
+.navbar-container {
+  position: static;
+}
+
+div .navbar {
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  top: 8%;
+  right: 5%;
+  float: right;
+}
+
+.navbar div {
+  margin-left: 35px;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+}
+
+.navbar div::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: rgb(255, 0, 102);
+  transition: width 0.3s ease-in-out;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
+.navbar div:hover::after,
+.navbar div.active::after {
+  width: 100%;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.navbar div:hover {
+  transform: scale(1.1);
+}
